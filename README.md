@@ -1,7 +1,5 @@
 # iccv19_attribute
-Code for *Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization @ ICCV 2019*.
-
-[ICCV'19 Poster](https://chufengt.github.io/publication/pedestrian-attribute/iccv_poster_id2029.pdf)
+Code for Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization @ ICCV 2019. [Paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tang_Improving_Pedestrian_Attribute_Recognition_With_Weakly-Supervised_Multi-Scale_Attribute-Specific_Localization_ICCV_2019_paper.pdf) [Poster](https://chufengt.github.io/publication/pedestrian-attribute/iccv_poster_id2029.pdf)
 
 **Code wiil be released soon.****
 
