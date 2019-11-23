@@ -6,7 +6,9 @@ Code for Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi
 **Code wiil be released soon.****
 
 If this work is useful to your research, please cite:
+
 `
+
 @InProceedings{Tang_2019_ICCV,
   author = {Tang, Chufeng and Sheng, Lu and Zhang, Zhaoxiang and Hu, Xiaolin},
   title = {Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization},
@@ -14,4 +16,5 @@ If this work is useful to your research, please cite:
   month = {October},
   year = {2019}
 }
+
 `
