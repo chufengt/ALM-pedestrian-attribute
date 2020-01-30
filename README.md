@@ -1,7 +1,31 @@
-# iccv19_attribute
-Code for Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization @ ICCV 2019. [Paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tang_Improving_Pedestrian_Attribute_Recognition_With_Weakly-Supervised_Multi-Scale_Attribute-Specific_Localization_ICCV_2019_paper.pdf), [Poster](https://chufengt.github.io/publication/pedestrian-attribute/iccv_poster_id2029.pdf).
+# Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization
 
-**Code will be released soon.**
+Code for the paper "Improving Pedestrian Attribute Recognition With Weakly-Supervised Multi-Scale Attribute-Specific Localization", ICCV 2019, Seoul.
+
+[[Paper]](https://arxiv.org/abs/1910.04562) [[Poster]](https://chufengt.github.io/publication/pedestrian-attribute/iccv_poster_id2029.pdf)
+
+Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
+
+## Environment
+
+- Python 3.6+
+- PyTorch 0.4+
+
+## Data
+
+Dataset: [RAP](http://rap.idealtest.org/), [PETA](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), [PA-100K](https://github.com/xh-liu/HydraPlus-Net)
+
+## Training and Testing
+
+```
+python main.py --approach=inception_iccv --experiment=rap
+```
+
+```
+python main.py --approach=inception_iccv --experiment=rap -e --resume='model_path'
+```
+
+## Reference
 
 If this work is useful to your research, please cite:
 
