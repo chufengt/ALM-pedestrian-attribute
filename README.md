@@ -11,9 +11,15 @@ Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
 - Python 3.6+
 - PyTorch 0.4+
 
-## Data
+## Datasets
 
-Dataset: [RAP](http://rap.idealtest.org/), [PETA](http://mmlab.ie.cuhk.edu.hk/projects/PETA.html), [PA-100K](https://github.com/xh-liu/HydraPlus-Net)
+- RAP: http://rap.idealtest.org/
+- PETA: http://mmlab.ie.cuhk.edu.hk/projects/PETA.html
+- PA-100K: https://github.com/xh-liu/HydraPlus-Net
+
+The original datasets should be processed to match the DataLoader.
+
+An example: [dangweili/pedestrian-attribute-recognition-pytorch](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch).
 
 ## Training and Testing
 
