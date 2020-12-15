@@ -19,7 +19,7 @@ Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
 
 The original datasets should be processed to match the DataLoader.
 
-An example: [dangweili/pedestrian-attribute-recognition-pytorch](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch).
+We provide the label lists for training and testing.
 
 ## Training and Testing
 
@@ -30,6 +30,16 @@ python main.py --approach=inception_iccv --experiment=rap
 ```
 python main.py --approach=inception_iccv --experiment=rap -e --resume='model_path'
 ```
+
+## Pretrained Models
+
+We provide the pretrained models for reference, the results may slightly different with the values reported in our paper.
+
+| Dataset | mA    | Link                                                         |
+| ------- | ----- | ------------------------------------------------------------ |
+| PETA    | 86.34 | [Model](https://drive.google.com/file/d/1cvX43Qn_vydzT_jnmgwYUUe9hIA161PH/view?usp=sharing) |
+| RAP     | 81.86 | [Model](https://drive.google.com/file/d/15paMK0-rKDsuzptDPK5kH2JuL8QO0HyS/view?usp=sharing) |
+| PA-100K | 80.45 | [Model](https://drive.google.com/file/d/1xIw3jpvE1pDC3U464kcFJ58iSKCRNQ63/view?usp=sharing) |
 
 ## Reference
 
